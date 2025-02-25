@@ -1,7 +1,3 @@
-Here's the **professional and refined README** for your **Ossarth** module:
-
----
-
 # **Ossarth**
 
 ### **AI-Powered Open-Source OS Customization Framework**
@@ -9,6 +5,7 @@ Here's the **professional and refined README** for your **Ossarth** module:
 An **AI-driven framework** for customizing **Ossarth OS** by dynamically creating and integrating **custom tools & helper functions**.
 
 ---
+![Ossarth Banner](https://github.com/Siddharth-magesh/Ossarth/blob/main/Logo.png)
 
 ## **What is Ossarth?**
 
