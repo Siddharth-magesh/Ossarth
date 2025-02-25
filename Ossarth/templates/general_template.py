@@ -5,11 +5,11 @@ def {func_name}({params}):
     \"\"\"{description}
 
     Args:
-        {args_doc}
+{formatted_args_doc}
 
     Returns:
         {return_type}: {return_desc}
-    \"\"\"    
+    \"\"\"
     {body}
 """
 

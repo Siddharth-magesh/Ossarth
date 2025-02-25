@@ -1,25 +1,14 @@
 from Ossarth.tool_manager import CustomFunctionManager
 
-manager = CustomFunctionManager(result_dir="tests")
+manager = CustomFunctionManager(result_dir="tools")
 
 manager.create_custom_tool(
-    func_name="test_tool",
-    description="A test tool function.",
-    params="param1: int, param2: str",
-    args_doc="param1 (int): An integer.\nparam2 (str): A string.",
-    return_type="str",
-    return_desc="A formatted string.",
-    body="return f'Test tool with {param1} and {param2}'",
-    filename="new"
-)
-
-manager.create_custom_function(
-    func_name="test_function",
-    description="A test helper function.",
-    params="x: int, y: int",
-    args_doc="x (int): First number.\ny (int): Second number.",
+    func_name="addition_tool",
+    description="A tool to add two numbers.",
+    params="num1: int, num2: int",
+    args_doc="num1 (int): The first number.\nnum2 (int): The second number.",
     return_type="int",
-    return_desc="Sum of x and y.",
-    body="return x + y",
-    filename="new"
+    return_desc="The sum of num1 and num2.",
+    body="return num1 + num2",
+    filename="math"
 )

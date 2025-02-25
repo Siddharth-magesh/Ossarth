@@ -7,11 +7,13 @@ class CustomFunctionManager:
         os.makedirs(self.result_dir, exist_ok=True)
 
     def create_custom_tool(self, func_name, description, params, args_doc, return_type, return_desc, body, filename=None):  
+        formatted_args_doc = "\n".join(["        " + line for line in args_doc.split("\n")])
+
         function_code = TOOL_TEMPLATE.format(
             func_name=func_name,
             params=params,
             description=description,
-            args_doc=args_doc,
+            formatted_args_doc=formatted_args_doc,
             return_type=return_type,
             return_desc=return_desc,
             body=body

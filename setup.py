@@ -5,7 +5,7 @@ with open('README.md', encoding='utf-8') as f:
 
 setup(
     name='Ossarth',
-    version='0.1.0',
+    version='0.1.1',
     description='A customizable Ossarth AI-powered open-source operating system toolkit',
     long_description=long_description,
     long_description_content_type='text/markdown',
